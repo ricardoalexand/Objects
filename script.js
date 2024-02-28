@@ -15,5 +15,10 @@ printButton.addEventListener('click', () => {
 //  - Create a list item.
 //  - Update the created list item element to the array info.
 //  - Append to the person list.
+ person.forEach(function(element){
+  let listItem = document.createElement("li");
+  listItem.innerHTML = element;
+  personList.append(listItem);
+ });
   
 })

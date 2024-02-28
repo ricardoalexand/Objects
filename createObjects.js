@@ -4,7 +4,12 @@
 //  - Include color, special abilities, where it lives, and any other information you'd like to include.
 //  - Once complete, run your code.
 
-
+let mythicalCreature = {
+  Name: "Mew",
+  Color: "blue",
+  Ability : "Water",
+  Home : "Cabo"
+}
 
 
 
